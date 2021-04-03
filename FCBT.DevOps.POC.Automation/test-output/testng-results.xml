@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-30T17:39:59 CDT" name="Default suite" finished-at="2021-03-30T17:41:20 CDT" duration-ms="81113">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sample.runner.SampleTestPOC@3e08ff24]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-03-30T17:39:59 CDT" name="Default test" finished-at="2021-03-30T17:41:20 CDT" duration-ms="81113">
+      <class name="com.sample.runner.SampleTestPOC">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.sample.runner.SampleTestPOC@3e08ff24]" started-at="2021-03-30T17:39:59 CDT" name="beforeSuite" finished-at="2021-03-30T17:39:59 CDT" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.sample.runner.SampleTestPOC@3e08ff24]" started-at="2021-03-30T17:40:00 CDT" name="setUpClass" finished-at="2021-03-30T17:40:00 CDT" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sample.runner.SampleTestPOC@3e08ff24]" started-at="2021-03-30T17:40:00 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-30T17:40:54 CDT" duration-ms="53808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding New Entity Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[New Deal Creation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sample.runner.SampleTestPOC@3e08ff24]" started-at="2021-03-30T17:40:54 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-30T17:41:20 CDT" duration-ms="26148" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Entity Maintenance"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[New Deal Creation]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@fieldname='Entity Maintenance']"}
+  (Session info: chrome=89.0.4389.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BIZMABDUHOLIKOU', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\MABDUH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68bd29ffd4575c414a9338b29a596001
+*** Element info: {Using=xpath, value=//div[@fieldname='Entity Maintenance']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@fieldname='Entity Maintenance']"}
+  (Session info: chrome=89.0.4389.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BIZMABDUHOLIKOU', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\MABDUH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:1587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68bd29ffd4575c414a9338b29a596001
+*** Element info: {Using=xpath, value=//div[@fieldname='Entity Maintenance']}
+at org.testng.Assert.fail(Assert.java:97)
+at com.sample.stepdefs.CME_NewDealCreation.user_clicks_entity_maintenance_from_tasks(CME_NewDealCreation.java:136)
+at ✽.User clicks Entity Maintenance from Tasks(file:///C:/Users/mabduholikov0418/Desktop/GuruBranch2/FCBT.DevOps.POC.Automation/src/test/resources/features/CME_NewDealCreation.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.sample.runner.SampleTestPOC@3e08ff24]" started-at="2021-03-30T17:41:20 CDT" name="tearDownClass" finished-at="2021-03-30T17:41:20 CDT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.sample.runner.SampleTestPOC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

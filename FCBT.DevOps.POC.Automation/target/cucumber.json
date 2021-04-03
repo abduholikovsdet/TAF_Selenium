@@ -1,0 +1,218 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13119774500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launches CME",
+            "match": {
+              "location": "com.sample.stepdefs.CME_NewDealCreation.user_Launches_CME()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29919100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Verifies Dashboard screen loaded",
+            "match": {
+              "location": "com.sample.stepdefs.CME_NewDealCreation.user_Verifies_Dashboard_screen_loaded()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-30T22:40:00.886Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2207776100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fcbt.taf.core.BaseHooks.beforeScenarioBaseHook(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Adding New Entity Scenario",
+        "description": "",
+        "id": "new-deal-creation;adding-new-entity-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1110339600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fcbt.taf.core.BaseHooks.afterScenarioBaseHook(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7630058800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks New Deal Creation",
+            "match": {
+              "location": "com.sample.stepdefs.CME_NewDealCreation.user_clicks_New_Deal_Creation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35431900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User verifies Customer Search Page loaded",
+            "match": {
+              "location": "com.sample.stepdefs.CME_NewDealCreation.user_verifies_Customer_Search_Page_loaded()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18466316800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Enters Customer name in Name Search field and Clicks New button",
+            "match": {
+              "location": "com.sample.stepdefs.CME_NewDealCreation.user_Enters_Customer_name_in_Name_Search_field_and_Clicks_New_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12896400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Verifies Entity Information screen loaded",
+            "match": {
+              "location": "com.sample.stepdefs.CME_NewDealCreation.user_Verifies_Entity_Information_screen_loaded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10908851800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Enters Customer Info and Saves",
+            "match": {
+              "location": "com.sample.stepdefs.CME_NewDealCreation.user_Enters_Customer_Info_and_Saves()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17598660100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launches CME",
+            "match": {
+              "location": "com.sample.stepdefs.CME_NewDealCreation.user_Launches_CME()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23933400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Verifies Dashboard screen loaded",
+            "match": {
+              "location": "com.sample.stepdefs.CME_NewDealCreation.user_Verifies_Dashboard_screen_loaded()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-30T22:40:54.439Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1645018800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fcbt.taf.core.BaseHooks.beforeScenarioBaseHook(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Entity Maintenance",
+        "description": "",
+        "id": "new-deal-creation;entity-maintenance",
+        "after": [
+          {
+            "result": {
+              "duration": 1379129800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fcbt.taf.core.BaseHooks.afterScenarioBaseHook(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@fieldname\u003d\u0027Entity Maintenance\u0027]\"}\n  (Session info: chrome\u003d89.0.4389.82)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027BIZMABDUHOLIKOU\u0027, ip: \u0027192.168.1.75\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\MABDUH~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:1587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 68bd29ffd4575c414a9338b29a596001\n*** Element info: {Using\u003dxpath, value\u003d//div[@fieldname\u003d\u0027Entity Maintenance\u0027]}\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat com.sample.stepdefs.CME_NewDealCreation.user_clicks_entity_maintenance_from_tasks(CME_NewDealCreation.java:136)\r\n\tat ✽.User clicks Entity Maintenance from Tasks(file:///C:/Users/mabduholikov0418/Desktop/GuruBranch2/FCBT.DevOps.POC.Automation/src/test/resources/features/CME_NewDealCreation.feature:17)\r\n",
+              "duration": 5488188400,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "User clicks Entity Maintenance from Tasks",
+            "match": {
+              "location": "com.sample.stepdefs.CME_NewDealCreation.user_clicks_entity_maintenance_from_tasks()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New Deal Creation",
+    "description": "",
+    "id": "new-deal-creation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CME_NewDealCreation.feature",
+    "tags": []
+  }
+]

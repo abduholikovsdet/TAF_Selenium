@@ -1,0 +1,44 @@
+# Maven
+# Build your Java project and run tests with Apache Maven.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+trigger:
+  - FebruaryRelease
+
+name: '0.0.1-SNAPSHOT-$(Date:yyyyMMdd)$(Rev:.r)'
+
+pool:
+  name: 'SeleniumDevPool'
+
+steps:
+  - task: MavenAuthenticate@0
+    inputs:
+      artifactsFeeds: 'TestAutomation'
+
+  - task: CmdLine@2
+    inputs:
+      script: 'mvn -f $(Build.Repository.LocalPath)\pom.xml clean compile test -Dcucumber.filter.tags="$(Tags)" -Dexec_env=grid -Dbrowser=$(BrowserName)'
+      workingDirectory: '$(Build.Repository.LocalPath)'
+
+  #- task: Maven@3
+  #  inputs:
+  #     mavenPomFile: 'pom.xml'
+  #     options: 'clean compile test -Dcucumber.filter.tags="$(Tags)" -Dexec_env=grid -Dbrowser=$(BrowserName)'
+  #     publishJUnitResults: false
+  #     javaHomeOption: 'Path'
+  #     jdkDirectory: 'C:\Program Files\Java\jdk1.8.0_291\'
+  #     jdkVersionOption: 'Default'
+  #     mavenVersionOption: 'Path'
+  #     mavenDirectory: 'C:\Program Files\apache-maven-3.8.1\'
+  #     mavenOptions: '-Xmx3072m'
+  #     mavenAuthenticateFeed: false
+  #     effectivePomSkip: true
+  #     sonarQubeRunAnalysis: false
+
+  - task: PublishBuildArtifacts@1
+    condition: always()
+    inputs:
+      PathtoPublish: '$(Build.Repository.LocalPath)\target\html-report'
+      ArtifactName: 'TestResults'
+      publishLocation: 'Container'

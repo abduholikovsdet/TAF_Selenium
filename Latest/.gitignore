@@ -1,0 +1,17 @@
+/.idea/
+*.iml
+/target/
+/lib
+/build/
+/.gradle/
+/out/
+/bin/
+/logs/
+*.log
+.classpath
+.project
+.settings
+/json_output/
+/junit_xml/
+/test-output/
+*.class

@@ -1,0 +1,793 @@
+
+
+003 Agriland, Farm Credit Services
+004 Heritage Land Bank, ACA
+005 Lone Star, ACA
+006 AgTexas Farm Credit Services, ACA
+007 AgCredit of South Texas, ACA
+008 Texas Farm Credit Services
+009 Great Plains Ag Credit, ACA
+011 Plains Land Bank, FLCA
+013 Central Texas Farm Credit, ACA
+014 Legacy AgCredit, ACA
+015 Texas Land Bank, ACA
+016 Louisiana Land Bank, ACA
+017 Mississippi Land Bank, ACA
+018 Southern AgCredit, ACA
+019 Alabama Farm Credit
+020 Alabama Ag Credit
+022 Ag New Mexico, Farm Credit Services, ACA
+023 Louisiana Ag Credit, ACA
+110 Farm Credit Bank of Texas
+
+
+<select name="costCenter" disabled="" class="form-control form-control-sm" id="id_costCenter">
+  <option value="">---------</option>
+
+  <option value="543">000001 GENERAL EXPENSE</option>
+
+  <option value="544">001-100 Administrative Office</option>
+
+  <option value="644">001-102 Secondary Market-1</option>
+
+  <option value="645">001-103 Secondary Market-2</option>
+
+  <option value="646">001-104 Copper Station</option>
+
+  <option value="647">001-105 Purchased Guarantees</option>
+
+  <option value="545">001-106 Other Direct Lending</option>
+
+  <option value="648">001-111 Crop Insurance Department</option>
+
+  <option value="546">001-113 Austin</option>
+
+  <option value="547">001-114 Lockhart</option>
+
+  <option value="649">001-115 New Braunfels</option>
+
+  <option value="548">001-120 Bryan</option>
+
+  <option value="650">001-121 Madisonville</option>
+
+  <option value="651">001-122 Crockett</option>
+
+  <option value="652">001-123 Conroe</option>
+
+  <option value="653">001-124 Livingston</option>
+
+  <option value="919">001-126 Brenham</option>
+
+  <option value="923">001-127 Victoria</option>
+
+  <option value="654">001-130 Bellville</option>
+
+  <option value="549">001-131 La Grange</option>
+
+  <option value="655">001-132 Katy</option>
+
+  <option value="550">001-140 Edna</option>
+
+  <option value="656">001-141 El Campo (old CFC)</option>
+
+  <option value="657">001-150 Dayton</option>
+
+  <option value="658">001-151 Beaumont</option>
+
+  <option value="659">001-152 Sugar Land</option>
+
+  <option value="660">001-153 Winnie</option>
+
+  <option value="661">001-160 Kenedy</option>
+
+  <option value="551">001-161 Robstown</option>
+
+  <option value="662">001-165 Edinburg</option>
+
+  <option value="663">001-166 Harlingen</option>
+
+  <option value="664">001-168 Laredo</option>
+
+  <option value="665">001-171 Temple</option>
+
+  <option value="666">001-172 Clifton</option>
+
+  <option value="667">001-173 Gatesville</option>
+
+  <option value="668">001-174 Marlin</option>
+
+  <option value="552">001-175 Waco</option>
+
+  <option value="669">001-176 Taylor</option>
+
+  <option value="670">001-180 Mason</option>
+
+  <option value="671">001-181 Kerrville</option>
+
+  <option value="672">001-183 Alpine - old</option>
+
+  <option value="673">001-184 Sonora - old</option>
+
+  <option value="553">001-185 Fredericksburg</option>
+
+  <option value="915">001-186 Round Rock</option>
+
+  <option value="554">001-191 Jourdanton</option>
+
+  <option value="555">001-192 Uvalde</option>
+
+  <option value="674">001-196 San Antonio</option>
+
+  <option value="675">001-197 Hondo</option>
+
+  <option value="556">001-199 Devine</option>
+
+  <option value="676">001-200 Headquarters</option>
+
+  <option value="677">001-201 Administrative (FAC)</option>
+
+  <option value="678">001-203 Commercial Lending</option>
+
+  <option value="679">001-209 Secondary Market</option>
+
+  <option value="557">001-210 Muleshoe</option>
+
+  <option value="680">001-211 Crosbyton</option>
+
+  <option value="558">001-212 Dalhart</option>
+
+  <option value="681">001-213 Tulia</option>
+
+  <option value="682">001-214 Dimmitt</option>
+
+  <option value="559">001-215 Hereford</option>
+
+  <option value="683">001-217 Levelland</option>
+
+  <option value="684">001-218 Littlefield</option>
+
+  <option value="560">001-219 Lubbock</option>
+
+  <option value="685">001-225 Bay City</option>
+
+  <option value="686">001-226 Edna (FAC)</option>
+
+  <option value="561">001-227 El Campo</option>
+
+  <option value="687">001-228 Rosenberg</option>
+
+  <option value="920">001-230 Seminole</option>
+
+  <option value="688">001-232 Munday</option>
+
+  <option value="689">001-233 Abilene</option>
+
+  <option value="690">001-234 Stamford</option>
+
+  <option value="562">001-235 Snyder</option>
+
+  <option value="691">001-236 Lamesa</option>
+
+  <option value="692">001-240 Goldthwaite</option>
+
+  <option value="693">001-241 Burnet</option>
+
+  <option value="563">001-242 San Saba</option>
+
+  <option value="694">001-243 Alpine</option>
+
+  <option value="695">001-244 San Angelo</option>
+
+  <option value="696">001-245 Brady</option>
+
+  <option value="564">001-247 Sonora</option>
+
+  <option value="697">001-248 El Paso</option>
+
+  <option value="698">001-249 Marfa</option>
+
+  <option value="699">001-253 Seymour</option>
+
+  <option value="700">001-255 Wichita Falls</option>
+
+  <option value="565">001-256 Vernon</option>
+
+  <option value="701">001-257 Bowie</option>
+
+  <option value="702">001-259 Graham</option>
+
+  <option value="703">001-260 Matador</option>
+
+  <option value="704">001-261 Childress</option>
+
+  <option value="566">001-262 Spur</option>
+
+  <option value="567">001-263 Perryton</option>
+
+  <option value="705">001-264 Canadian</option>
+
+  <option value="568">001-265 Pampa</option>
+
+  <option value="706">001-267 Wheeler</option>
+
+  <option value="913">001-290 Correspondent Lending</option>
+
+  <option value="569">001-295 Capital Markets</option>
+
+  <option value="570">001-500 Capital Markets</option>
+
+  <option value="571">003-100 Agriland Central Office</option>
+
+  <option value="572">003-295 Capital Markets/Participations</option>
+
+  <option value="573">003-500 Capital Markets</option>
+
+  <option value="574">004-100 Tyler Office</option>
+
+  <option value="707">004-101 Nacogdoches Office</option>
+
+  <option value="708">004-102 Palestine Office</option>
+
+  <option value="709">004-103 Tyler Lending Office</option>
+
+  <option value="710">004-104 Athens Office</option>
+
+  <option value="711">004-105 Lindale Office</option>
+
+  <option value="712">004-106 Lufkin Office</option>
+
+  <option value="713">004-107 Commercial Lending</option>
+
+  <option value="714">004-108 Jacksonville Branch</option>
+
+  <option value="715">004-111 Loan Processing</option>
+
+  <option value="716">004-119 Fort Worth Office</option>
+
+  <option value="717">004-120 McKinney Office</option>
+
+  <option value="718">004-121 Greenville Office</option>
+
+  <option value="719">004-122 Rockwall Office</option>
+
+  <option value="575">004-295 Capital Markets/Participations</option>
+
+  <option value="576">004-500 Capital Markets</option>
+
+  <option value="577">005-100 Lone Star ACA Headquarters</option>
+
+  <option value="720">005-101 Paris Office</option>
+
+  <option value="721">005-102 New Boston Office</option>
+
+  <option value="722">005-103 Denton Office</option>
+
+  <option value="723">005-104 Sherman Office</option>
+
+  <option value="724">005-105 Cleburne Office</option>
+
+  <option value="725">005-106 Stephenville Office</option>
+
+  <option value="726">005-107 Sweetwater Office</option>
+
+  <option value="727">005-108 Abilene Office</option>
+
+  <option value="728">005-109 Weatherford Office</option>
+
+  <option value="729">005-111 Lampasas Office</option>
+
+  <option value="730">005-112 Georgetown Office</option>
+
+  <option value="731">005-113 Corsicana Office</option>
+
+  <option value="732">005-114 Hillsboro Office</option>
+
+  <option value="733">005-115 Participations Purchased</option>
+
+  <option value="734">005-116 Fort Worth Branch Office</option>
+
+  <option value="735">005-117 Waco Office</option>
+
+  <option value="736">005-118 Round Rock Office</option>
+
+  <option value="737">005-120 Corporate</option>
+
+  <option value="578">005-295 Capital Markets/Participations</option>
+
+  <option value="579">005-500 Capital Markets</option>
+
+  <option value="738">005-600 Special Assets</option>
+
+  <option value="580">006-100 Lubbock Central Office</option>
+
+  <option value="739">006-101 Brownfield Branch Office</option>
+
+  <option value="740">006-102 Levelland Branch Office</option>
+
+  <option value="741">006-104 Ralls Branch Office</option>
+
+  <option value="742">006-105 Seminole Branch Office</option>
+
+  <option value="743">006-106 Tahoka Branch Office</option>
+
+  <option value="744">006-107 Lubbock Branch Office</option>
+
+  <option value="745">006-108 Comanche/Stephenville Office</option>
+
+  <option value="746">006-109 Eastland/Stephenville Office</option>
+
+  <option value="747">006-110 Burleson Branch Office</option>
+
+  <option value="748">006-111 Stephenville Branch Office</option>
+
+  <option value="749">006-112 Hillsboro Branch Office</option>
+
+  <option value="750">006-113 Corsicana/Burleson Branch</option>
+
+  <option value="751">006-114 Appraisal Department</option>
+
+  <option value="752">006-115 Loan Servicing Dept</option>
+
+  <option value="753">006-116 Investment Securities</option>
+
+  <option value="754">006-117 MRI originations &amp; Purchases</option>
+
+  <option value="755">006-118 Mortgage Secondary Market</option>
+
+  <option value="756">006-119 Lubbock Central - SAFE Loans</option>
+
+  <option value="757">006-120 Cotton Kings Corr. Lending</option>
+
+  <option value="758">006-200 Brownfield/Seminole Office 200</option>
+
+  <option value="759">006-201 Brownfield/Seminole Office 201</option>
+
+  <option value="760">006-202 Levelland Office 202</option>
+
+  <option value="761">006-203 Seminole Office 203</option>
+
+  <option value="762">006-204 Brownfield Office 204</option>
+
+  <option value="581">006-295 Capital Markets/Participations</option>
+
+  <option value="763">006-300 Lubbock Office 300</option>
+
+  <option value="764">006-301 Lubbock Office 301</option>
+
+  <option value="765">006-302 Lubbock Office 302</option>
+
+  <option value="766">006-303 Lubbock Branch Office 303</option>
+
+  <option value="767">006-400 Burleson Office 400</option>
+
+  <option value="768">006-401 Burleson Office 401</option>
+
+  <option value="769">006-402 Hillsboro Office 402</option>
+
+  <option value="770">006-403 Hillsboro Office 403</option>
+
+  <option value="582">006-500 Capital Markets</option>
+
+  <option value="771">006-501 Stephenville Office-Alleva</option>
+
+  <option value="772">006-502 Stephenville Office-Tisdale</option>
+
+  <option value="773">006-503 Stephenville Office-Hicks</option>
+
+  <option value="774">006-504 Stephenville Office-Jones</option>
+
+  <option value="775">006-601 Dimmitt</option>
+
+  <option value="776">006-602 Administrative Branch Office</option>
+
+  <option value="777">006-603 Friona</option>
+
+  <option value="778">006-604 Dumas</option>
+
+  <option value="779">006-605 Muleshoe Branch Office</option>
+
+  <option value="780">006-606 Olton Branch Office</option>
+
+  <option value="781">006-607 Insurance Office</option>
+
+  <option value="782">006-608 Great Plains Ag Ins -Mul</option>
+
+  <option value="583">006-609 GPAC Plainview Merged</option>
+
+  <option value="584">006-610 GPAC Amarillo Merged</option>
+
+  <option value="585">006-611 Amarillo Commercial Credit</option>
+
+  <option value="783">006-700 Panhandle Region Insurance Br.</option>
+
+  <option value="784">006-701 Amarillo Insurance Branch</option>
+
+  <option value="785">006-702 Brownfield Insurance</option>
+
+  <option value="786">006-704 Muleshoe Insurance Branch</option>
+
+  <option value="787">006-705 Plainview Insurance Branch</option>
+
+  <option value="586">007-100 AgCredit of South Texas</option>
+
+  <option value="587">007-295 Capital Markets/Participations</option>
+
+  <option value="588">007-500 Capital Markets</option>
+
+  <option value="589">008-100 Central Office</option>
+
+  <option value="788">008-101 Investment Program</option>
+
+  <option value="789">008-102 Bandera Office</option>
+
+  <option value="790">008-103 Crop Insurance Department</option>
+
+  <option value="791">008-104 Robstown Office</option>
+
+  <option value="792">008-105 Pleasanton Office</option>
+
+  <option value="793">008-106 Brenham Office</option>
+
+  <option value="794">008-107 Cuero Office</option>
+
+  <option value="795">008-108 San Antonio Office</option>
+
+  <option value="796">008-109 Uvalde Office</option>
+
+  <option value="797">008-110 Pasture Insurance</option>
+
+  <option value="798">008-111 Weslaco Office</option>
+
+  <option value="799">008-112 Raymondville Office</option>
+
+  <option value="800">008-115 Hebbronville Office</option>
+
+  <option value="801">008-130 130-Corporate</option>
+
+  <option value="802">008-131 Tyler Office</option>
+
+  <option value="803">008-132 Athens Office</option>
+
+  <option value="804">008-133 Heath Office</option>
+
+  <option value="805">008-134 Nacogdoches Office</option>
+
+  <option value="806">008-135 Sulphur Springs Office</option>
+
+  <option value="807">008-136 Beaumont Office</option>
+
+  <option value="808">008-137 Fairfield Office</option>
+
+  <option value="809">008-138 Paris Office</option>
+
+  <option value="810">008-139 Bonham Office</option>
+
+  <option value="811">008-140 Gainesville Office</option>
+
+  <option value="812">008-141 Clarksville Office</option>
+
+  <option value="813">008-150 The Woodlands Office</option>
+
+  <option value="814">008-155 Rural Residential Lending</option>
+
+  <option value="815">008-200 Administrative (ACST)</option>
+
+  <option value="816">008-203 Merged Branch - Not ADSII</option>
+
+  <option value="817">008-220 200-Special Assets</option>
+
+  <option value="590">008-295 Capital Markets/Participations</option>
+
+  <option value="591">008-500 Capital Markets</option>
+
+  <option value="818">008-802 Bandera Office-CASH CONTROL</option>
+
+  <option value="819">008-804 Robstown Office-CASH CONTROL</option>
+
+  <option value="820">008-805 Pleasanton Office-CASH CONTROL</option>
+
+  <option value="821">008-806 Brenham Office-CASH CONTROL</option>
+
+  <option value="822">008-808 San Antonio Office-CASH CTRL</option>
+
+  <option value="823">008-809 Uvalde Office-CASH CONTROL</option>
+
+  <option value="824">008-811 Weslaco Office-CASH CONTROL</option>
+
+  <option value="825">008-812 Raymondville Office-CASH CTRL</option>
+
+  <option value="826">008-814 Kingwood Branch Office</option>
+
+  <option value="827">008-815 Hebbronville Office-CASH CTRL</option>
+
+  <option value="828">008-816 Region 2-RP</option>
+
+  <option value="829">008-817 Rowlett Branch</option>
+
+  <option value="830">008-818 Region 3-RP</option>
+
+  <option value="831">008-819 Region 4-RP</option>
+
+  <option value="832">008-820 Region 1-RP</option>
+
+  <option value="833">008-821 Branch 112</option>
+
+  <option value="592">009-100 Amarillo Central Office</option>
+
+  <option value="593">009-101 Dimmit Credit Office</option>
+
+  <option value="594">009-103 Friona Credit Office</option>
+
+  <option value="595">009-104 Dumas Credit Office</option>
+
+  <option value="596">009-109 Plainview Credit Office</option>
+
+  <option value="597">009-110 Amarillo Credit Office</option>
+
+  <option value="598">009-295 Capital Markets/Participations</option>
+
+  <option value="599">009-500 Capital Markets</option>
+
+  <option value="600">011-100 Central Office</option>
+
+  <option value="834">011-101 Amarillo Office</option>
+
+  <option value="835">011-102 Pampa Office</option>
+
+  <option value="836">011-103 Perryton Office</option>
+
+  <option value="837">011-104 Plainview Office</option>
+
+  <option value="602">011-295 Capital Markets/Participations</option>
+
+  <option value="603">011-500 Capital Markets</option>
+
+  <option value="604">013-100 Administrative Office</option>
+
+  <option value="838">013-101 Early Office</option>
+
+  <option value="839">013-102 Coleman Office</option>
+
+  <option value="840">013-103 Haskell Office</option>
+
+  <option value="841">013-104 San Angelo Office</option>
+
+  <option value="842">013-105 Brady Office</option>
+
+  <option value="917">013-106 Comanche Office</option>
+
+  <option value="605">013-295 Capital Markets/Participations</option>
+
+  <option value="606">013-500 Capital Markets</option>
+
+  <option value="607">014-100 Sulphur Springs Admin Office</option>
+
+  <option value="843" selected="">014-101 Gilmer Office</option>
+
+  <option value="844">014-102 Canton Office</option>
+
+  <option value="845">014-103 Kaufman Office</option>
+
+  <option value="846">014-104 Sulphur Springs-Participations</option>
+
+  <option value="847">014-105 Sulphur Springs Office</option>
+
+  <option value="848">014-106 Longview Office</option>
+
+  <option value="916">014-107 Terrell Office</option>
+
+  <option value="608">014-295 Capital Markets/Participations</option>
+
+  <option value="609">014-500 Capital Markets</option>
+
+  <option value="610">015-100 Administrative Office</option>
+
+  <option value="611">015-295 Capital Markets/Participations</option>
+
+  <option value="612">015-500 Capital Markets</option>
+
+  <option value="613">016-100 Administrative Office</option>
+
+  <option value="849">016-101 Alexandria Office</option>
+
+  <option value="850">016-102 Opelousas Office</option>
+
+  <option value="851">016-103 Shreveport Office</option>
+
+  <option value="852">016-104 Tallulah Office</option>
+
+  <option value="853">016-105 Winnsboro Office</option>
+
+  <option value="854">016-106 Hammond Office</option>
+
+  <option value="855">016-107 Crowley Office</option>
+
+  <option value="856">016-108 Port Allen Office</option>
+
+  <option value="857">016-109 Monroe Office</option>
+
+  <option value="858">016-110 Capital Markets</option>
+
+  <option value="859">016-111 Capital Mkts-Trust Financial</option>
+
+  <option value="860">016-112 LA Loan Operations</option>
+
+  <option value="861">016-113 Arcadia Office</option>
+
+  <option value="614">016-295 Capital Markets/Participations</option>
+
+  <option value="615">016-500 Capital Markets</option>
+
+  <option value="616">017-100 Senatobia Admin Office</option>
+
+  <option value="862">017-101 Clarksdale Office</option>
+
+  <option value="863">017-102 Cleveland Office</option>
+
+  <option value="864">017-103 Houston Office</option>
+
+  <option value="865">017-104 Starkville Office</option>
+
+  <option value="866">017-105 Tupelo Office</option>
+
+  <option value="867">017-106 Senatobia Office</option>
+
+  <option value="868">017-107 Corinth Office</option>
+
+  <option value="918">017-108 Rutledge Investments</option>
+
+  <option value="869">017-111 N MS Capital Markets</option>
+
+  <option value="617">017-295 Capital Markets/Participations</option>
+
+  <option value="618">017-500 Capital Markets</option>
+
+  <option value="619">018-100 Administrative Office</option>
+
+  <option value="870">018-101 Brookhaven Office</option>
+
+  <option value="871">018-102 Greenville Office</option>
+
+  <option value="872">018-103 Greenwood Office</option>
+
+  <option value="873">018-104 Hattiesburg Office</option>
+
+  <option value="874">018-105 Newton Office</option>
+
+  <option value="875">018-106 Gulfport Office</option>
+
+  <option value="876">018-107 Ridgeland Office</option>
+
+  <option value="877">018-111 Capital Markets</option>
+
+  <option value="878">018-112 Professional Services</option>
+
+  <option value="879">018-113 O.F.</option>
+
+  <option value="880">018-114 Grenada Office</option>
+
+  <option value="881">018-115 Ruston Office</option>
+
+  <option value="882">018-116 Farmerville MERGED Do not use</option>
+
+  <option value="883">018-117 Shreveport Field Office</option>
+
+  <option value="884">018-118 Point of Sale - AGFAST</option>
+
+  <option value="885">018-200 Administrative (MERGED)</option>
+
+  <option value="620">018-295 Capital Markets/Participations</option>
+
+  <option value="621">018-500 Capital Markets</option>
+
+  <option value="622">019-100 Cullman Administrative Office</option>
+
+  <option value="886">019-101 Albertville Office</option>
+
+  <option value="887">019-102 Athens Office</option>
+
+  <option value="888">019-103 Tuscumbia Office</option>
+
+  <option value="889">019-104 Talladega Office</option>
+
+  <option value="890">019-105 Cullman Office</option>
+
+  <option value="891">019-106 Capital Markets Group</option>
+
+  <option value="892">019-107 Cash Management Branch</option>
+
+  <option value="601">019-108 CM-Particip Pat</option>
+
+  <option value="914">019-109 Agribusiness</option>
+
+  <option value="924">019-110 Gadsden</option>
+
+  <option value="925">019-208 CM-Part Patronage</option>
+
+  <option value="623">019-295 CM-Particip NonPat</option>
+
+  <option value="624">019-500 Capital Markets</option>
+
+  <option value="625">020-100 Montgomery Administrative Office</option>
+
+  <option value="893">020-101 Demopolis Office</option>
+
+  <option value="894">020-102 Dothan Office</option>
+
+  <option value="895">020-103 Enterprise Office</option>
+
+  <option value="896">020-104 Gulf Coast Office</option>
+
+  <option value="897">020-105 Monroeville Office</option>
+
+  <option value="898">020-106 Opelika Office</option>
+
+  <option value="899">020-107 Selma Office</option>
+
+  <option value="900">020-108 Montgomery Branch Office</option>
+
+  <option value="901">020-109 Capital Markets</option>
+
+  <option value="902">020-200 Cash Management Branch</option>
+
+  <option value="626">020-295 Capital Markets/Participations</option>
+
+  <option value="627">020-500 Capital Markets</option>
+
+  <option value="628">022-100 Administrative Office</option>
+
+  <option value="903">022-101 Clovis Branch Office</option>
+
+  <option value="904">022-102 Roswell Branch Office</option>
+
+  <option value="905">022-103 Belen Branch Office</option>
+
+  <option value="906">022-104 Las Cruces Credit Office</option>
+
+  <option value="907">022-105 Asset Sale</option>
+
+  <option value="908">022-106 CPP Loans Sold to FCBT</option>
+
+  <option value="909">022-108 Ag NM Country Mortgage</option>
+
+  <option value="629">022-295 Capital Markets/Participations</option>
+
+  <option value="630">022-500 Capital Markets</option>
+
+  <option value="631">023-100 Louisiana Ag Credit Central</option>
+
+  <option value="632">023-295 Capital Markets/Participations</option>
+
+  <option value="633">023-500 Capital Markets</option>
+
+  <option value="634">110-000 FCB - Use with Stock Accounts ONLY</option>
+
+  <option value="910">110-200 Special Assets - Long Term</option>
+
+  <option value="911">110-225 New Mexico Loans</option>
+
+  <option value="635">110-24 Rural America Bond Loans</option>
+
+  <option value="636">110-245 Rural America Bond Loans</option>
+
+  <option value="912">110-250 CAPITALIZED PART POOL LOANS</option>
+
+  <option value="921">110-251 Non-Cap Part Pool Loans</option>
+
+  <option value="922">110-252 Capitalized Part Pool Loans 2</option>
+
+  <option value="637">110-280 Participations - Patronage Pool</option>
+
+  <option value="638">110-281 Participations - Non-Patr Pool</option>
+
+  <option value="639">110-282 Participations - CoBank Patr</option>
+
+  <option value="640">110-370 Other Financing Institutions (OFI)</option>
+
+  <option value="641">110-400 Net Direct Note</option>
+
+  <option value="642">110-853 Capital Markets Group</option>
+
+  <option value="643">999-999 Generic Expense Code</option>
+
+</select>
